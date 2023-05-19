@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 1340px;     
+    min-height: 100vh; 
+}
+
+/* ======================== Star Main Area ================ */
+
+/* ===========================Start Header div AREA======================= */
+
+#header{
+    padding: 2rem 8rem;
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-size: cover;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.bar-ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: "Alata";
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.li-a:hover{
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    padding-bottom: 0.5rem;
+}
+
+.ham{
+    display: none;
+}
+
+.head-h1{
+    font-family: "Josefin Sans";
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    margin-top: 8rem ;
+    margin-bottom: 10rem;
+    width: 400px;
+    line-height: 3rem;
+    border: 2px solid hsl(0, 0%, 100%);
+    padding: 2rem;
+}
+
+/* ===========================End Header div AREA======================= */
+/* ===========================Start About div AREA======================= */
+
+#about{
+    padding: 8rem;
+    display: flex;
+    position: relative;
+}
+
+
+.about1{
+    margin-top: 15rem;
+    width: 600px;
+    background-color: hsl(0, 0%, 100%);
+    z-index: 1;
+    margin-left: -8rem;
+    padding: 2rem 5rem;
+}
+
+.about-h2{
+    font-family: "Josefin Sans";
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 0%);
+    line-height: 1.6rem;
+    margin-top: 2rem;
+}
+
+.about-p{
+    font-family: "Alata";
+    font-size: 0.93rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 41%);
+    line-height: 1.2rem;
+    margin-top: 3rem;
+}
+
+
+/* ===========================End About div AREA======================= */
+/* ===========================Start Create div AREA======================= */
+
+#create{
+    padding: 5rem 8rem;
+    align-items: center;
+}
+
+.create-h2{
+    font-family: "Josefin Sans";
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 0%);
+    float: left;
+}
+
+.create-in{
+    font-family: "Alata";
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: transparent;
+    float: right;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid hsl(0, 0%, 0%);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.create-in:hover{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+}
+
+.grid{
+    display: grid;
+    margin-top: 4rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.grid-img{
+    filter: brightness(50%);
+    
+}
+
+.grid-1::before{
+    content: "Deep earth";
+    color: hsl(0, 0%, 100%);
+    margin-top: 350px;
+    z-index: 1;
+    font-family: "Josefin Sans]";
+    font-size: 2rem;
+    font-weight: 300;
+    position: absolute;
+    width: 50px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    line-height: 2rem;
+}
+.grid-2::before{
+    content: "Night arcade";
+    color: hsl(0, 0%, 100%);
+    margin-top: 350px;
+    z-index: 1;
+    font-family: "Josefin Sans]";
+    font-size: 2rem;
+    font-weight: 300;
+    position: absolute;
+    width: 50px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    line-height: 2rem;
+}
+.grid-3::before{
+    content: "Soccer team VR";
+    color: hsl(0, 0%, 100%);
+    margin-top: 350px;
+    z-index: 1;
+    font-family: "Josefin Sans]";
+    font-size: 2rem;
+    font-weight: 300;
+    position: absolute;
+    width: 150px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    line-height: 2rem;
+}
+.grid-4::before{
+    content: "The grid";
+    color: hsl(0, 0%, 100%);
+    margin-top: 350px;
+    z-index: 1;
+    font-family: "Josefin Sans]";
+    font-size: 2rem;
+    font-weight: 300;
+    position: absolute;
+    width: 50px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    line-height: 2rem;
+}
+.grid-5::before{
+    content: "From up above VR";
+    color: hsl(0, 0%, 100%);
+    margin-top: 350px;
+    z-index: 1;
+    font-family: "Josefin Sans]";
+    font-size: 2rem;
+    font-weight: 300;
+    position: absolute;
+    width: 200px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    line-height: 2rem;
+}
+.grid-6::before{
+    content: "Pocket borealis";
+    color: hsl(0, 0%, 100%);
+    margin-top: 350px;
+    z-index: 1;
+    font-family: "Josefin Sans]";
+    font-size: 2rem;
+    font-weight: 300;
+    position: absolute;
+    width: 50px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    line-height: 2rem;
+}
+.grid-7::before{
+    content: "The curiosity";
+    color: hsl(0, 0%, 100%);
+    margin-top: 350px;
+    z-index: 1;
+    font-family: "Josefin Sans]";
+    font-size: 2rem;
+    font-weight: 300;
+    position: absolute;
+    width: 50px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    line-height: 2rem;
+}
+.grid-8::before{
+    content: "Make it fisheye";
+    color: hsl(0, 0%, 100%);
+    margin-top: 350px;
+    z-index: 1;
+    font-family: "Josefin Sans]";
+    font-size: 2rem;
+    font-weight: 300;
+    position: absolute;
+    width: 250px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    line-height: 2rem;
+}
+
+/* ===========================End Create div AREA======================= */
+/* ===========================Start Footer div AREA======================= */
+
+#footer{
+    padding: 3rem 8rem;
+    background-color: hsl(0, 0%, 0%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-ul{
+    margin-top: 1rem;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: "Alata";
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.foot-a:hover{
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    padding-bottom: 0.5rem;
+}
+
+.social{
+    display: flex;
+    gap: 1rem; 
+     
+}
+
+.social i{
+    cursor: pointer; 
+    color: hsl(0, 0%, 100%); 
+}
+
+.social i:hover {
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    padding-bottom: 1.5rem;
+
+}
+
+.foot-span{
+    display: inline-block;
+    font-family: "Alata";
+    font-size: 0.93rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 41%);
+    margin-top: 3rem;
+}
+
+
+/* ===========================End Footer div AREA======================= */
+
+/* ======================== End Main Area ================ */
+
+/* ======================== START Footer Area ================ */
+
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: hsl(35, 77%, 62%);
+    justify-content: center;
+    background-color: hsl(240, 10%, 16%);
+    line-height: 1.5rem;
+    padding: 5px;
+  }
+  
+.foot a {
+    color: hsl(5, 85%, 63%);
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: white;
+}
+  
+  
+  /* ======================== End Footer Area ================ */
+  
+  /* ======================== Start Media Querry Area ================ */
+@media screen and (max-width:1375px){
+    .about-img{
+        width: 70%;
+    }
+
+    .about-img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .about1{
+        margin-top: 9rem;
+        width: 590px;
+        background-color: hsl(0, 0%, 100%);
+        z-index: 1;
+        margin-left: -7rem;
+        padding: 2rem 4.5rem;
+    }
+    
+}
+
+@media screen and (max-width:375px){
+    body{
+        min-width: 395px;
+    }
+
+    #header{
+        padding: 2rem;
+        background-image: url(./images/mobile/image-hero.jpg);
+    }
+
+    .bar{
+        display: block;
+        align-items: center;
+    }
+
+    .bar-ul{
+        flex-direction: column;
+        display: none;
+        margin-top: 7.5rem;
+        width: 395px;
+        z-index: 1;
+        height: 110vh;
+        position: absolute;
+        background-color: black;
+        left: 0;
+    }
+
+    .bar-li{
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+
+    .li-a{
+        font-size: 2rem;
+    }
+
+    .ham{
+        display: block;
+        float: right;
+        margin-top: -15px;
+    }
+
+    #close{
+        display: none;
+    }
+
+    .head-h1{
+        font-size: 2.3rem;
+        width: 310px;
+    }
+
+    #about{
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+    .about-img{
+        width: 100%;
+        content: url(./images/mobile/image-interactive.jpg);
+    }
+
+    .about1{
+        margin-top: 1rem;
+        width: 360px;
+        margin-left: 0;
+        z-index: 0;
+        text-align: center;
+        padding: 0rem;
+    }
+
+    .about-h2{
+        width: 300px;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .about-p{
+        margin-top: 1.5rem;
+        width: 300px;
+        line-height: 1.5rem;
+    }
+
+    #create{
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .create-h2{
+        float: none;
+    }
+
+    .create-in{
+        float: none;
+        margin-top: 1320px;
+        position: absolute;
+        margin-left: -2.5rem;
+    }
+    
+
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .grid div{
+        width: 340px;
+    }
+
+    .grid-1{
+        content: url(./images/mobile/image-deep-earth.jpg);
+    }
+    .grid-2{
+        content: url(./images/mobile/image-night-arcade.jpg);
+    }
+    .grid-3{
+        content: url(./images/mobile/image-soccer-team.jpg);
+    }
+    .grid-4{
+        content: url(./images/mobile/image-grid.jpg);
+    }
+    .grid-5{
+        content: url(./images/mobile/image-from-above.jpg);
+    }
+    .grid-6{
+        content: url(./images/mobile/image-pocket-borealis.jpg);
+    }
+    .grid-7{
+        content: url(./images/mobile/image-curiosity.jpg);
+    }
+    .grid-8{
+        content: url(./images/mobile/image-fisheye.jpg);
+    }
+
+    .grid-1::before, .grid-2::before, .grid-3::before, .grid-4::before, .grid-5::before, .grid-6::before, .grid-7::before, .grid-8::before{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    #footer{
+        margin-top: 8rem;
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .foot-ul{
+        flex-direction: column;
+    }
+
+    .social{
+        margin-top: 5rem;
+        text-align: center;
+        margin-left: 5rem;
+    }
+
+    .foot-span{
+        margin-top: 2rem;
+    }
+}
+
+
+
+  /* ======================== End Media Querry Area ================ */

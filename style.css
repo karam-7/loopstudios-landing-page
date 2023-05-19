@@ -421,11 +421,15 @@ body{
     .ham{
         display: block;
         float: right;
-        margin-top: -15px;
     }
 
     #close{
         display: none;
+        width: 40px;
+    }
+
+    #open{
+        width: 40px;
     }
 
     .head-h1{

@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://github.com/karam-7//loopstudios-landing-page)
-- Live Site URL:(https://karam-7.github.io//loopstudios-landing-page/)
+- Solution URL:(https://github.com/karam-7/loopstudios-landing-page)
+- Live Site URL:(https://karam-7.github.io/loopstudios-landing-page/)
 
 ## My process
 
